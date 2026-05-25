@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Basic_Frameworks">
+      <UniqueIdentifier>{4b17be28-985e-4e92-9aad-1d2a5c05f216}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Basic_Frameworks\BH">
+      <UniqueIdentifier>{8fe6583f-f274-4f60-82bd-590cf2cf1d22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demo">
+      <UniqueIdentifier>{8cd71ff0-9140-4b39-a112-032a06f4511b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Basic_Frameworks\BH\Dbg">
+      <UniqueIdentifier>{7aeb9126-4b04-4633-a89e-9299ecf1e86e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Basic_Frameworks\BH\Device">
+      <UniqueIdentifier>{27661635-8235-41fe-916f-708fe0467cad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Basic_Frameworks\BH\Math">
+      <UniqueIdentifier>{d2b902db-65cb-4fbc-bfec-16eca2963051}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Basic_Frameworks\BH\Core">
+      <UniqueIdentifier>{491360c2-3be3-43f1-863e-0ae32aba29da}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Device.cpp">
+      <Filter>Basic_Frameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Basic_Frameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="Render.cpp">
+      <Filter>Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="bhx9.h">
+      <Filter>Basic_Frameworks\BH\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="BH.cpp">
+      <Filter>Basic_Frameworks\BH</Filter>
+    </ClCompile>
+    <ClCompile Include="bhError.cpp">
+      <Filter>Basic_Frameworks\BH\Dbg</Filter>
+    </ClCompile>
+    <ClCompile Include="bhGUID.cpp">
+      <Filter>Basic_Frameworks\BH\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="bhMath.cpp">
+      <Filter>Basic_Frameworks\BH\Math</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Device.h">
+      <Filter>Basic_Frameworks</Filter>
+    </ClInclude>
+    <ClInclude Include="Render.h">
+      <Filter>Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="bhError.h">
+      <Filter>Basic_Frameworks\BH\Dbg</Filter>
+    </ClInclude>
+    <ClInclude Include="bhUnknownbase.h">
+      <Filter>Basic_Frameworks\BH\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="bhx9types.h">
+      <Filter>Basic_Frameworks\BH\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="BH.h">
+      <Filter>Basic_Frameworks\BH</Filter>
+    </ClInclude>
+    <ClInclude Include="bhGUID.h">
+      <Filter>Basic_Frameworks\BH\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="bhMath.h">
+      <Filter>Basic_Frameworks\BH\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="bhDefine.h">
+      <Filter>Basic_Frameworks\BH\Core</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
